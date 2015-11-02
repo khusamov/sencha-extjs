@@ -1,0 +1,17 @@
+{
+	"name": "khusamov-sencha-extjs",
+	"version": "6.0.0",
+	"authors": ["Sencha (http://sencha.com/)"],
+	"description": "Sencha Ext JS",
+	"main": "build/ext-all.js",
+	"keywords": ["extjs", "sencha"],
+	"license": "GPLv3",
+	"homepage": "http://sencha.com/",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
+}
