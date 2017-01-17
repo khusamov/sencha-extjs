@@ -6,12 +6,8 @@ Ext.define('Admin.store.search.Results', {
     model: 'Admin.model.search.Result',
 
     proxy: {
-        type: 'ajax',
-        url: '~api/search/results',
-        reader: {
-            type: 'json',
-            rootProperty: 'data'
-        }
+        type: 'api',
+        url: '~api/search/results'
     },
 
     autoLoad: 'true',

@@ -356,7 +356,7 @@ Ext.define('KitchenSink.controller.Global', {
                     xtype: 'codePreview',
                     tools: [],
                     showTitle: false,
-                    items: preview.activeView.codePreviewProcessed
+                    items: preview.activeView ? preview.activeView.codePreviewProcessed : []
                 },
                 doClose: function() {
                     w.hide(preview, function() {

@@ -48,7 +48,7 @@ Ext.define('KitchenSink.view.ProfileSwitcher', {
             modernProfiles = {
                 'modern-triton': 'Modern Triton',
                 'modern-neptune': 'Modern Neptune',
-                //blackberry: 'Blackberry',
+                blackberry: 'Blackberry',
                 cupertino: 'Cupertino',
                 mountainview: 'Mountain View',
                 windows: 'Windows'
